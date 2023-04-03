@@ -1,3 +1,4 @@
+import About from "@/components/About"
 import Hero from "@/components/Hero/Hero"
 import Head from "next/head"
 
@@ -11,8 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mt-24">
+      <main>
         <Hero/>
+        <About/> 
       </main>
     </div>
   )
