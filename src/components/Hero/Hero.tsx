@@ -1,4 +1,5 @@
 import logo from "public/IBF_logo.png"
+import bg from "public/smthnew.jpg"
 import Image from "next/image"
 import Timer from "./timer"
 

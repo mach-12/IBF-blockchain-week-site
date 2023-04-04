@@ -43,16 +43,30 @@ export default function Timer() {
       }, []);
 
     return (
-        <div>
-            {eventTime ? (<h2 className='flex-row text-center font-bold text-3xl space-x-4 pt-5'>The event has begun</h2>)
-            : (
-            <div className="flex-row text-center font text-3xl space-x-4 pt-5 tracking-wide">
-                <span>Days: {days}</span>
-                <span>Hours: {hours}</span>
-                <span>Minutes: {minutes}</span>
-                <span>Seconds: {seconds}</span>
-            </div>
-            )}
+      <div className="flex flex-col items-center">
+      {eventTime ? (
+        <h2 className='text-center font-bold text-3xl mt-5'>The event has begun</h2>
+      ) : (
+        <div className="flex flex-row justify-center items-center space-x-4 mt-5 ">
+          <div className="flex flex-col items-center bg-gray-800 text-purple-700 rounded-lg p-2 border-2 border-indigo-900 w-24 h-24">
+            <span className="font-bold text-3xl">{days}</span>
+            <span className="font-medium">Days</span>
+          </div>
+          <div className="flex flex-col items-center bg-gray-800 text-purple-700 rounded-lg p-2 border-2 border-indigo-900 w-24 h-24">
+            <span className="font-bold text-3xl">{hours}</span>
+            <span className="font-medium">Hours</span>
+          </div>
+          <div className="flex flex-col items-center bg-gray-800 text-purple-700 rounded-lg p-2 border-2 border-indigo-900 w-24 h-24">
+            <span className="font-bold text-3xl">{minutes}</span>
+            <span className="font-medium">Minutes</span>
+          </div>
+          <div className="flex flex-col items-center bg-gray-800 text-purple-700 rounded-lg p-2 border-2 border-indigo-900 w-24 h-24">
+            <span className="font-bold text-3xl">{seconds}</span>
+            <span className="font-medium">Seconds</span>
+          </div>
         </div>
+      )}
+    </div>
+    
     )
 }
