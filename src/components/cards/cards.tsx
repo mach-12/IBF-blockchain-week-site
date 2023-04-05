@@ -78,7 +78,7 @@ export default function Cards() {
         </div>
         <figure>
           <Image
-            src="https://www.shutterstock.com/image-illustration/tshirt-3d-rendering-mockup-design-260nw-1921304279.jpg"
+            src={IBFLogo}
             alt={"Boots"}
             width={512}
             height={512}

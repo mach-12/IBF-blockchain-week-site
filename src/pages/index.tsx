@@ -3,6 +3,7 @@ import Hero from "@/components/Hero/Hero"
 import EventTimeline from "@/components/EventTimeline/EventTimeline"
 import Stats from "@/components/Stats"
 import Head from "next/head"
+import Cards from "@/components/cards/cards"
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
       <main>
         <Hero/>
         <About/> 
-
+        <Cards/>
         <Stats/> 
         <EventTimeline/>
         
