@@ -1,8 +1,9 @@
 import Image from "next/image";
 import IBFLogo from "/public/IBF_logo.png";
 import Solidity from "/public/s.png"
-import Dapp from "/public/yes.gif"
+import Dapp from "/public/yes.png"
 import Battle from "/public/battle.png"
+
 export default function Cards() {
   return (
     <div className='flex flex-wrap justify-center pt-6'>
@@ -78,7 +79,7 @@ export default function Cards() {
         </div>
         <figure>
           <Image
-            src="https://www.shutterstock.com/image-illustration/tshirt-3d-rendering-mockup-design-260nw-1921304279.jpg"
+            src=""
             alt={"Boots"}
             width={512}
             height={512}

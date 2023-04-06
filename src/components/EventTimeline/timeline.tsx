@@ -1,36 +1,41 @@
 import React from 'react';
-import { Chrono } from 'react-chrono';
+import TimelineCard from './TimelineCard';
 
 const items = [
   {
-    title: "January 2022",
-    cardTitle: "Event 1",
-    cardSubtitle: "Event 1 Subtitle",
-    cardDetailedText: "This is the first event on the timeline.",
+    title: "Introduction to Solidity Programming",
+    description: "Day 1",
+    duration: "Event 1 Subtitle",
+    level: "This is the first event on the timeline.",
+  
   },
   {
     title: "February 2022",
-    cardTitle: "Event 2",
-    cardSubtitle: "Event 2 Subtitle",
-    cardDetailedText: "This is the second event on the timeline.",
+    description: "Event 2",
+    duration: "Event 2 Subtitle",
+    level: "This is the second event on the timeline.",
   },
   {
     title: "March 2022",
-    cardTitle: "Event 3",
-    cardSubtitle: "Event 3 Subtitle",
-    cardDetailedText: "This is the third event on the timeline.",
+    description: "Event 3",
+    duration: "Event 3 Subtitle",
+    level: "This is the third event on the timeline.",
   }
 ];
 
 const Timeline = () => {
-  return (
-    <Chrono
-      items={items}
-      mode="HORIZONTAL"
-      itemWidth={150}
-
-    />
-  );
-};
+    return (
+      <div>
+        {items.map((item) => (
+          <TimelineCard
+            title={item.title}
+            description={item.description}
+            duration={item.duration}
+            level={item.level}
+          />
+        ))}
+      </div>
+    );
+  };
 
 export default Timeline;
