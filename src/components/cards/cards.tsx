@@ -1,91 +1,125 @@
 import Image from "next/image";
-import IBFLogo from "/public/IBF_logo.png";
-import Solidity from "/public/s.png"
-import Dapp from "/public/yes.png"
-import Battle from "/public/battle.png"
+import Merch from "/public/merch.png";
+import Solidity from "/public/solidity.png"
+import Battle from "/public/Battle.png"
+import Dapp from "/public/yes.gif"
+import Fifty from "/public/Fifty.png"
+import Industry from "/public/industry.png"
 
 export default function Cards() {
   return (
-    <div className='flex flex-wrap justify-center pt-6'>
-      <div className="card w-full md:w-1/6 bg-base-100 shadow-xl ml-60 mx-2">
-        <div className="card-body">
-          <h2 className="card-title">Learn Solidity and smart contracts!!</h2>
-        </div>
-        <figure>
+<div className="container my-12 mx-auto px-4 md:px-12">
+  <div className="flex flex-wrap -mx-1 lg:-mx-4">
+
+    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+      <article className="overflow-hidden rounded-lg shadow-lg">
+
           <Image
+            alt="Solidity Programming"
+            className="block h-auto w-full "
             src={Solidity}
-            alt={"IBF logo"}
-            width={256}
-            height={256}
           />
-        </figure>
-      </div>
-      <div className="card w-full md:w-1/6 bg-base-100 shadow-xl mx-2 my-4">
-        <div className="card-body">
-        <h2 className="card-title"> Learn to make Dapps!</h2>
-          
-        </div>
-        <figure>
-          <Image
-            src={Dapp}
-            alt={"Socks"}
-            width={800}
-            height={424}
-          />
-        </figure>
-      </div>
-      <div className="card w-full md:w-1/6 bg-base-100 shadow-xl mr-60 mx-2 my-4">
-        <div className="card-body">
-          <h2 className="card-title">Industry experts!</h2>
-        </div>
-        <figure>
-          <Image
-            src={IBFLogo}
-            alt={"Hat"}
-            width={512}
-            height={512}
-          />
-        </figure>
-      </div>
-      <div className="card w-full md:w-1/6 bg-base-100 shadow-xl mx-2 my-4">
-        <div className="card-body">
-          <h2 className="card-title">Only 50 seats&#128337;!</h2>
-        </div>
-        <figure>
-          <Image
-            src={IBFLogo}
-            alt={"Gloves"}
-            width={512}
-            height={512}
-          />
-        </figure>
-      </div>
-      <div className="card w-full md:w-1/6 bg-base-100 shadow-xl mx-2 my-4">
-        <div className="card-body">
-          <h2 className="card-title">Smart contract Hackathon!</h2>
-        </div>
-        <figure>
-          <Image
-            src={Battle}
-            alt={"Scarf"}
-            width={512}
-            height={512}
-          />
-        </figure>
-      </div>
-      <div className="card w-full md:w-1/6 bg-base-100 shadow-xl mx-2 my-4">
-        <div className="card-body">
-          <h2 className="card-title">Swags and goodies!!</h2>
-        </div>
-        <figure>
-          <Image
-            src=""
-            alt={"Boots"}
-            width={512}
-            height={512}
-          />
-        </figure>
-      </div>
+       
+        <header className="flex bg-white items-center justify-between leading-tight p-2 md:p-4">
+          <h3 className="text-2xl no-underline font-semibold text-black mx-auto">
+              Solidity Bootcamp
+          </h3>
+        </header>
+      </article>
     </div>
+
+
+    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+      <article className="overflow-hidden rounded-lg shadow-lg">
+
+          <Image
+            alt="Placeholder"
+            className="block h-auto w-full"
+            src={Fifty}
+          />
+       
+        <header className="flex bg-white items-center justify-between leading-tight p-2 md:p-4">
+          <h3 className="text-2xl no-underline font-semibold text-black mx-auto">
+              Limited
+          </h3>
+        </header>
+      </article>
+    </div>
+
+    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+      <article className="overflow-hidden rounded-lg shadow-lg">
+
+          <Image
+            alt="Merch Swags and Hoodies"
+            className="block h-auto w-full "
+            src={Merch}
+          />
+       
+        <header className="flex bg-white items-center justify-between leading-tight p-2 md:p-4">
+          <h3 className="text-2xl no-underline font-semibold text-black mx-auto">
+              Swags and Goodies 
+          </h3>
+        </header>
+      </article>
+    </div>
+
+    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+      <article className="overflow-hidden rounded-lg shadow-lg">
+
+          <Image
+            alt="Placeholder"
+            className="block h-auto w-full"
+            src={Battle}
+          />
+       
+        <header className="flex bg-white items-center justify-between leading-tight p-2 md:p-4">
+          <h3 className="text-2xl no-underline font-semibold text-black mx-auto">
+              Smart Contract Battle
+          </h3>
+        </header>
+      </article>
+    </div>
+
+    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+      <article className="overflow-hidden rounded-lg shadow-lg">
+
+          <Image
+            alt="Placeholder"
+            className="block h-auto w-full"
+            src={Industry}
+          />
+       
+        <header className="flex bg-white items-center justify-between leading-tight p-2 md:p-4">
+          <h3 className="text-2xl no-underline font-semibold text-black mx-auto">
+              Meet Companies
+          </h3>
+        </header>
+      </article>
+    </div>
+
+    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+      <article className="overflow-hidden rounded-lg shadow-lg">
+          <Image
+            alt="Dapp"
+            className="block h-auto w-full"
+            src={Dapp}
+          />
+       
+        <header className="flex bg-white items-center justify-between leading-tight p-2 md:p-4">
+          <h3 className="text-2xl no-underline font-semibold text-black mx-auto">
+              Learn how to build Dapps
+          </h3>
+        </header>
+      </article>
+    </div>
+
+  </div>
+</div>
+
+
+
   );
 }
+
+
+
