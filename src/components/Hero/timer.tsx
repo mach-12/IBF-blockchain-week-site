@@ -50,25 +50,25 @@ export default function Timer() {
           
           <div className='grid grid-flow-col gap-5 text-center auto-cols-max'>
             <div className='flex flex-col p-2 bg-neutral rounded-box text-neutral-content'>
-              <span className='countdown font-mono text-7xl' style={{ '--value': days } as CountdownStyle}>
+              <span className='countdown font-mono text-7xl text-white' style={{ '--value': days } as CountdownStyle}>
                 <span></span>
               </span>
               days
             </div>
             <div className='flex flex-col p-2 bg-neutral rounded-box text-neutral-content'>
-              <span className='countdown font-mono text-7xl' style={{ '--value': hours } as CountdownStyle}>
+              <span className='countdown font-mono text-7xl text-white' style={{ '--value': hours } as CountdownStyle}>
                 <span></span>
               </span>
               hours
             </div>
             <div className='flex flex-col p-2 bg-neutral rounded-box text-neutral-content'>
-              <span className='countdown font-mono text-7xl' style={{ '--value': minutes } as CountdownStyle}>
+              <span className='countdown font-mono text-7xl text-white' style={{ '--value': minutes } as CountdownStyle}>
                 <span></span>
               </span>
               min
             </div>
             <div className='flex flex-col p-2 bg-neutral rounded-box text-neutral-content'>
-              <span className='countdown font-mono text-7xl' style={{ '--value': seconds } as CountdownStyle}>
+              <span className='countdown font-mono text-7xl text-white' style={{ '--value': seconds } as CountdownStyle}>
                 <span></span>
               </span>
               sec

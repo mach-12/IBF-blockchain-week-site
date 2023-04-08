@@ -3,14 +3,15 @@ import bg from "public/smthnew.jpg"
 import Image from "next/image"
 import Timer from "./timer"
 
+// bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-900 via-slate-800 to-black
 export default function Hero() {
   return (
-    <div className="pt-20 p-3 h-screen bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-900 via-slate-800 to-black">
+    <div className="pt-20 p-3 h-full  bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-900 via-pink-900 to-black ">
         <div className="flex w-64 h-32 mx-auto ">
         <Image 
         src={logo}
         alt={"IBF logo"}
-        className="object-cover scale-75 xl:scale-100 sm:scale-90 lg:scale-95"
+        className="object-cover scale-75 xl:scale-100 sm:scale-90 lg:scale-95 "
         ></Image>
         </div>
 
@@ -22,14 +23,17 @@ export default function Hero() {
           <h2 className="mt-2 text-center mb-4 text-md font-bold text-gray-900 dark:text-white 
           md:text-2xl lg:text-3xl xl:text-4xl sm:text-3xl lg:mt-5">
             Unlock the power of
-            <span className="mx-1 text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400
+            <span className="mx-1 text-transparent bg-clip-text
+            bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-stone-200 via-red-300 to-lime-200
             lg:mx-2 sm:mx-3">
               Web3
             </span>
             </h2>
     
         <div className="mt-24">
-          <h2 className="text-2xl text-yellow-500 text-center font-bold sm:text-md md:text-md lg:text-3xl xl:text-4xl">APRIL 10TH - 16TH 2023</h2>
+          <h2 className="text-2xl text-transparent bg-clip-text
+            bg-gradient-to-b from-orange-500 to-yellow-300
+            text-center font-bold sm:text-md md:text-md lg:text-3xl xl:text-4xl">APRIL 10TH - 16TH 2023</h2>
           <Timer/>
         </div>
 

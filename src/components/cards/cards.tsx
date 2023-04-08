@@ -8,10 +8,10 @@ import Industry from "/public/industry.png"
 
 export default function Cards() {
   return (
-<div className="container my-12 mx-auto px-4 md:px-12">
+<div className="container mx-auto px-4 md:px-12">
   <div className="flex flex-wrap -mx-1 lg:-mx-4">
 
-    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+    <div className="my-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
       <article className="overflow-hidden rounded-lg shadow-lg">
 
           <Image
@@ -29,7 +29,7 @@ export default function Cards() {
     </div>
 
 
-    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+    <div className="my-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
       <article className="overflow-hidden rounded-lg shadow-lg">
 
           <Image
@@ -46,7 +46,7 @@ export default function Cards() {
       </article>
     </div>
 
-    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+    <div className="my-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
       <article className="overflow-hidden rounded-lg shadow-lg">
 
           <Image
@@ -63,7 +63,7 @@ export default function Cards() {
       </article>
     </div>
 
-    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+    <div className="my-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
       <article className="overflow-hidden rounded-lg shadow-lg">
 
           <Image
@@ -80,7 +80,7 @@ export default function Cards() {
       </article>
     </div>
 
-    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+    <div className="my-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
       <article className="overflow-hidden rounded-lg shadow-lg">
 
           <Image
@@ -97,7 +97,7 @@ export default function Cards() {
       </article>
     </div>
 
-    <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
+    <div className="my-8 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3 transition-transform duration-300 hover:scale-105">
       <article className="overflow-hidden rounded-lg shadow-lg">
           <Image
             alt="Dapp"

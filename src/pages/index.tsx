@@ -1,9 +1,9 @@
 import About from "@/components/About"
 import Hero from "@/components/Hero/Hero"
-import EventTimeline from "@/components/EventTimeline/EventTimeline"
-import Stats from "@/components/Stats"
+import EventTimeline from "@/components/EventTimeline"
+import Sponsors from "@/components/Sponsors"
 import Head from "next/head"
-import Cards from "@/components/cards/cards"
+
 
 export default function Home() {
   return (
@@ -18,9 +18,8 @@ export default function Home() {
       <main className="">
         <Hero/>
         <About/> 
-     
-        <Stats/> 
         <EventTimeline/>
+        <Sponsors/>
         
       </main>
     </div>
