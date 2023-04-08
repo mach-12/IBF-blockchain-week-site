@@ -20,7 +20,7 @@ export default function EventTimeline() {
                 Day 1: 10th April, Monday <br></br>6:30 PM to 8:30 PM
                 </time>
                 <h3 className="text-lg font-semibold text-white dark:text-white">
-                Introduction to Dapps using Solidity
+                Intro to Dapps using Solidity
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                   A complete introduction to Solidity programming and Dapps (Decentralized Apps). You will get to know all about History and Working of Blockchain, Ethereum, EVM, Transactions, Gas Fees, Blockchain Wallets, NFTs and What exactly is a Dapp.
@@ -34,7 +34,7 @@ export default function EventTimeline() {
                 Day 2: 11th April, Tuesday <br></br>6:30 PM to 8:30 PM
                 </time>
                 <h3 className="text-lg font-semibold text-white dark:text-white">
-                Deep dive into Smart Contracts and Deployment
+                Proof of Community by Shardeum / Intro to Spheron / Deep Dive into Smart Contracts
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                   Here you will learn about how Scalable Smart Contract Development. You will understand how to test and debug your Contracts and eventually Deploy them.   

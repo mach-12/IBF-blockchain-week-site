@@ -1,7 +1,7 @@
 import About from "@/components/About"
 import Hero from "@/components/Hero/Hero"
 import EventTimeline from "@/components/EventTimeline"
-import Sponsors from "@/components/Sponsors"
+import Sponsors from "@/components/Sponsors/Sponsors"
 import Head from "next/head"
 
 
