@@ -4,7 +4,7 @@ import VimalK from "/public/VimalKumar.png"
 
 export default function Sponsors() {
     return (
-    <div className="pt-14 pb-4 h-full pl-32 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-900 via-pink-900 to-black">
+    <div className="pt-14 pb-4 h-full pl-8 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-900 via-pink-900 to-black">
         <h2 className="text-left text-5xl font-semibold w-1/3 text-white">
         Speakers
         </h2>
@@ -58,7 +58,7 @@ export default function Sponsors() {
           <div className="space-y-4 text-center divide-y divide-gray-700">
             <div className="my-2 space-y-1">
               <h2 className="text-xl font-semibold sm:text-2xl">Dr. Vimal Kumar</h2>
-              <p className="px-5 text-xs sm:text-base dark:text-gray-400">Assistant Professor @ BU Blockchain Spl. Chair</p>
+              <p className="px-5 text-xs sm:text-base dark:text-gray-400">Assistant Professor @BU<br/> Blockchain Spl. Chair</p>
             </div>
             <div className="flex justify-center pt-2 space-x-4 align-center">
               <a rel="noopener noreferrer" target="_blank" href="https://www.bennett.edu.in/faculties/dr-vimal-kumar/" aria-label="Website" className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400">

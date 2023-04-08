@@ -1,7 +1,7 @@
 // bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-cyan-900 via-slate-800 to-black
 export default function EventTimeline() {
     return (
-      <div className="pt-14 pb-4 h-full pl-32 
+      <div className="pt-14 pb-4 h-full pl-8
       bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))] from-slate-900 via-pink-900 to-slate-900">
           <div className="flex-col">
               <h2 className="text-left text-5xl font-semibold w-1/2 text-white">
