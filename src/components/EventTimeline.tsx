@@ -19,7 +19,7 @@ export default function EventTimeline() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 Day 1: 10th April, Monday <br></br>6:30 PM to 8:30 PM
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-white dark:text-white">
                 Introduction to Dapps using Solidity
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -33,7 +33,7 @@ export default function EventTimeline() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 Day 2: 11th April, Tuesday <br></br>6:30 PM to 8:30 PM
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-white dark:text-white">
                 Deep dive into Smart Contracts and Deployment
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -46,7 +46,7 @@ export default function EventTimeline() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   Day 3: 12th April, Wednesday<br></br>6:30 PM to 8:30 PM
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-white dark:text-white">
                 Fullstack Blockchain: Integration of Smart Contracts with Frontend                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
                   Now that you know how to write smart contracts, learn how to deploy them into production. We will understand how to use Frontend Frameworks and Wallets to finally launch your Dapp. 
@@ -59,7 +59,7 @@ export default function EventTimeline() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   Day 4: 13th April, Thursday <br></br>6:30 PM to 8:30 PM
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-white dark:text-white">
                  Smart Contract Battle
                 </h3>
                 <p className="text-base font-normal text-gray-500 dark:text-gray-400">
@@ -72,7 +72,7 @@ export default function EventTimeline() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   Day 5: 14th April, Saturday <br></br>6:30 PM to 8:30 PM
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-white dark:text-white">
                 Exploration of Blockchain and Roadmap
 
                 </h3>
@@ -87,7 +87,7 @@ export default function EventTimeline() {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   Day 6: 15th April, Saturday <br></br>6:30 PM to 8:30 PM
                 </time>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-lg font-semibold text-white dark:text-white">
                 Offical Blockchain Specialisation Workshop <span className="mx-1 text-transparent font-bold bg-clip-text bg-gradient-to-r from-pink-400 to-pink-600
             lg:mx-2 sm:mx-3">(Open for all students)</span>
                 </h3>
