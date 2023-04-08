@@ -4,7 +4,7 @@ import VimalK from "/public/VimalKumar.png"
 
 export default function Sponsors() {
     return (
-    <div className="pt-14 pb-4 h-full pl-8 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-900 via-pink-900 to-black">
+    <div className="pt-14 pb-4 h-full pl-8 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-900 via-pink-900 to-black" >
         <h2 className="text-left text-5xl font-semibold w-1/3 text-white">
         Speakers
         </h2>

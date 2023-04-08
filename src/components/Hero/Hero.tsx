@@ -24,7 +24,7 @@ export default function Hero() {
             Unlock the power of
             <span className="mx-1 text-transparent bg-clip-text
             bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-stone-200 via-red-300 to-lime-200
-            lg:mx-2 sm:mx-3 xl:">
+            lg:mx-2 sm:mx-3 ">
               Web3
             </span>
             </h2>
