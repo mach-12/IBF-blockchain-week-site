@@ -12,8 +12,9 @@ export default function Timer() {
   const [eventTime, setEventTime] = useState(false);
 
   useEffect(() => {
-      const target = new Date('04/10/2023 23:59:59');
-      target.setSeconds(target.getSeconds() + 15);
+      // const target = new Date('04/10/2023 23:59:59');
+      const target = new Date();
+      target.setSeconds(target.getSeconds() + 5);
 
       const interval = setInterval(() => {
       const now = new Date();
@@ -42,33 +43,33 @@ export default function Timer() {
   return (
     <div>
       {eventTime ? (
-        <h2 className='flex-row text-center font-bold text-3xl space-x-4 pt-5'>
-          The event has begun
+        <h2 className='mt-5 flex-row text-center font-black text-white  text-3xl'>
+          The event has begun!
         </h2>
       ) : (
-        <div className='flex justify-center pt-6'>
+        <div className='flex justify-center pt-6 '>
           
-          <div className='grid grid-flow-col gap-5 text-center auto-cols-max'>
-            <div className='flex flex-col p-2 bg-neutral rounded-box text-neutral-content'>
-              <span className='countdown font-mono text-7xl text-white' style={{ '--value': days } as CountdownStyle}>
+          <div className='grid grid-flow-col gap-2 text-center auto-cols-max'>
+            <div className='flex flex-col p-3 bg-neutral rounded-box text-neutral-content'>
+              <span className='countdown font-mono text-2xl md:text-5xl xl:text-7xl lg:text-6xl text-white' style={{ '--value': days } as CountdownStyle}>
                 <span></span>
               </span>
               days
             </div>
-            <div className='flex flex-col p-2 bg-neutral rounded-box text-neutral-content'>
-              <span className='countdown font-mono text-7xl text-white' style={{ '--value': hours } as CountdownStyle}>
+            <div className='flex flex-col p-3 bg-neutral rounded-box text-neutral-content'>
+              <span className='countdown font-mono text-2xl md:text-5xl xl:text-7xl lg:text-6xl text-white' style={{ '--value': hours } as CountdownStyle}>
                 <span></span>
               </span>
               hours
             </div>
-            <div className='flex flex-col p-2 bg-neutral rounded-box text-neutral-content'>
-              <span className='countdown font-mono text-7xl text-white' style={{ '--value': minutes } as CountdownStyle}>
+            <div className='flex flex-col p-3 bg-neutral rounded-box text-neutral-content'>
+              <span className='countdown font-mono text-2xl md:text-5xl xl:text-7xl lg:text-6xl text-white' style={{ '--value': minutes } as CountdownStyle}>
                 <span></span>
               </span>
               min
             </div>
-            <div className='flex flex-col p-2 bg-neutral rounded-box text-neutral-content'>
-              <span className='countdown font-mono text-7xl text-white' style={{ '--value': seconds } as CountdownStyle}>
+            <div className='flex flex-col p-3 bg-neutral rounded-box text-neutral-content'>
+              <span className='countdown font-mono text-2xl md:text-5xl xl:text-7xl lg:text-6xl text-white' style={{ '--value': seconds } as CountdownStyle}>
                 <span></span>
               </span>
               sec
