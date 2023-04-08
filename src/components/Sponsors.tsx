@@ -1,3 +1,7 @@
+import Image from "next/image"
+import ArshG from "/public/ArishmitGhosh.png"
+import VimalK from "/public/VimalKumar.png" 
+
 export default function Sponsors() {
     return (
     <div className="pt-14 pb-4 h-full pl-32 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-900 via-pink-900 to-black">
@@ -9,9 +13,11 @@ export default function Sponsors() {
 
 
         <div className="container py-12 mx-auto px-4 md:px-12">
+
       <div className="flex flex-wrap -mx-1 lg:-mx-4 justify-center gap-x-20 gap-y-3">
+        {/* Arishmit Bhaiya */}
         <div className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100">
-          <img src="https://media.licdn.com/dms/image/C4D03AQHCa8A0grws6Q/profile-displayphoto-shrink_200_200/0/1654166547574?e=1686182400&v=beta&t=6xqt68FJf6LiC8iSL7yI29f-PYKcpzHWHEQcTOQuXQw" alt="Arishmit Ghosh" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
+          <Image width="150" height="150" src={ArshG} alt=""  className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square"/>
           <div className="space-y-4 text-center divide-y divide-gray-700">
             <div className="my-2 space-y-1">
               <h2 className="text-xl font-semibold sm:text-2xl">Arishmit Ghosh</h2>
@@ -26,7 +32,7 @@ export default function Sponsors() {
               <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/vimalbaghel/"
+              href="https://www.linkedin.com/in/arishmit-ghosh-a546391ba/"
               aria-label="LinkedIn"
               className="p-2 rounded-md dark:text-gray-100 hover:dark:text-violet-400"
             >
@@ -44,8 +50,11 @@ export default function Sponsors() {
             </div>
           </div>
         </div>
+
+        {/* Vimal Sir */}
         <div className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100">
-          <img src="https://media.licdn.com/dms/image/C5103AQFKd3Nr465vxA/profile-displayphoto-shrink_400_400/0/1533899331875?e=1686182400&v=beta&t=qId8lW4p6AwtKSEJ-YRBp3HaOLS1RSwc3FrInYgFZxs" alt="Dr. Vimal Kumar" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
+          <Image width="150" height="150" src={VimalK}  className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" alt="Picture of Dr Vimal"/>
+
           <div className="space-y-4 text-center divide-y divide-gray-700">
             <div className="my-2 space-y-1">
               <h2 className="text-xl font-semibold sm:text-2xl">Dr. Vimal Kumar</h2>

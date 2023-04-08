@@ -99,9 +99,6 @@ export default function EventTimeline() {
               </li>
             </ol>
           </div>
-
-
-
           </div>
       </div>
     )
