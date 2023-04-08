@@ -6,6 +6,7 @@ export default function SpeakerCards() {
 
     return (
         <div className="" >
+            
         <h2 className="text-left text-5xl font-semibold w-1/3 text-white">
         Speakers
         </h2>
