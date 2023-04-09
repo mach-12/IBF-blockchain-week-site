@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Merch from "/public/merch.png";
-import Solidity from "/public/solidity.png"
-import Battle from "/public/battle.png"
-import Dapp from "/public/yes.gif"
-import Fifty from "/public/Fifty.png"
-import Industry from "/public/industry.png"
+import Merch from "/public/features/merch.png";
+import Solidity from "/public/features/solidity.png"
+import Battle from "/public/features/battle.png"
+import Dapp from "/public/features/dapp.gif"
+import Fifty from "/public/features/Fifty.png"
+import Industry from "/public/features/industry.png"
 
 export default function Cards() {
   return (
@@ -57,7 +57,7 @@ export default function Cards() {
        
         <header className="flex bg-white items-center justify-between leading-tight p-2 md:p-4">
           <h3 className="text-2xl no-underline font-semibold text-black mx-auto">
-              Swags and Goodies 
+              Swags, Goodies, Refreshments 
           </h3>
         </header>
       </article>

@@ -33,7 +33,9 @@ export default function Hero() {
           <h2 className="text-2xl text-transparent bg-clip-text
             bg-gradient-to-b from-orange-500 to-yellow-300
             text-center font-bold
-            sm:text-md md:text-md lg:text-3xl xl:text-3xl">APRIL 10TH - 16TH 2023</h2>
+            sm:text-md md:text-md lg:text-3xl xl:text-3xl">
+              APRIL 10TH - 15TH 2023
+          </h2>
           <Timer/>
         </div>
 

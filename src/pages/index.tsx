@@ -3,6 +3,7 @@ import Hero from "@/components/Hero/Hero"
 import EventTimeline from "@/components/EventTimeline"
 import Sponsors from "@/components/Sponsors/Sponsors"
 import Head from "next/head"
+import Footer from "@/components/Footer"
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <About/> 
         <EventTimeline/>
         <Sponsors/>
+        <Footer/>
         
       </main>
     </div>
