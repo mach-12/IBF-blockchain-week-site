@@ -173,7 +173,7 @@ export default function SpeakerCards() {
           <Image className="w-3/4 rounded-full mx-auto mt-4" src={Venkatesh} alt="B Venkatesh" />
           <div className="px-6 py-4 text-center">
             <h2 className="font-bold text-xl mb-2 text-white">B Venkatesh </h2>
-            <p className="text-gray-400 text-base">Blockchain Developer @ 5ire</p>
+            <p className="text-gray-400 text-base">TECHLEAD @ 5ire HUB</p>
           </div>
           <div className="px-6 pt-4 pb-5 flex justify-around">
             <a rel="noopener noreferrer" href="https://www.linkedin.com/in/b-venkatesh-b0b839121" target="_blank">
