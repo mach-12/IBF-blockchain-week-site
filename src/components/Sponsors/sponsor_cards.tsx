@@ -7,7 +7,7 @@ import SpheronLogo from "public/sponsors/spheron.png"
 export default function SponsorCards() {
 
     return (
-        <div className="" >
+        <div className="pt-3" >
 
             <h2 className="text-left text-5xl font-semibold w-1/3 text-white">
             Sponsors
