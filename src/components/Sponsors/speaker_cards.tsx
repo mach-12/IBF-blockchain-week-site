@@ -202,12 +202,12 @@ export default function SpeakerCards() {
           </div>
         </div>
         
-        {/* Name - , Position - Developer Relations manager at 5ireChain */}
+        {/* Anmol Arora */}
         <div className="max-w-xs rounded-xl overflow-hidden shadow-lg m-4 bg-gray-900">
-          <Image className="w-3/4 rounded-full mx-auto mt-4" src={Himanshu} alt="Himanshu Raj" />
+          <Image className="w-3/4 rounded-full mx-auto mt-4" src={Anmol} alt="Anmol " />
           <div className="px-6 py-4 text-center">
-            <h2 className="font-bold text-xl mb-2 text-white"> Himanshu Raj </h2>
-            <p className="text-gray-400 text-base">DevRel Manager @ 5ireChain</p>
+            <h2 className="font-bold text-xl mb-2 text-white">  </h2>
+            <p className="text-gray-400 text-base">evRel / Lead @ Polygon-Flipkart Blockchain Center Of Excellence</p>
           </div>
 
           <div className="px-6 pb-5 flex flex-grow justify-around">
@@ -254,12 +254,12 @@ export default function SpeakerCards() {
           </div>
         </div>
 
-        {/* Anmol Arora*/}
+        {/* Himanshu*/}
         <div className="max-w-xs rounded-xl overflow-hidden shadow-lg m-4 bg-gray-900">
-          <Image className="w-3/4 rounded-full mx-auto mt-4" src={Anmol} alt="Anmol Arora" />
+          <Image className="w-3/4 rounded-full mx-auto mt-4" src={Himanshu} alt="Anmol Arora" />
           <div className="px-6 py-4 text-center">
-            <h2 className="font-bold text-xl mb-2 text-white"> Anmol Arora </h2>
-            <p className="text-gray-400 text-base">DevRel / Lead @ Polygon-Flipkart Blockchain Center Of Excellence</p>
+            <h2 className="font-bold text-xl mb-2 text-white"> Himanshu Raj </h2>
+            <p className="text-gray-400 text-base">DevRel Manager @ 5ireChain</p>
           </div>
 
           <div className="px-6 pb-5 flex flex-grow justify-around">
