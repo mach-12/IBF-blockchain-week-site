@@ -106,7 +106,7 @@ export default function SpeakerCards() {
           <Image className="w-3/4 rounded-full mx-auto mt-4" src={Loveneesh} alt="Lovneesh Dhir" />
           <div className="px-6 py-4 text-center">
             <h2 className="font-bold text-xl mb-2 text-white">Lovneesh Dhir </h2>
-            <p className="text-gray-400 text-base">Blockchain developer DevRel @ Shardeum</p>
+            <p className="text-gray-400 text-base">Committer @ Shardeum</p>
           </div>
           <div className="px-6 pt-4 pb-5 flex justify-around">
             <a rel="noopener noreferrer" href="https://www.linkedin.com/in/loveneeshdhir/" target="_blank">
@@ -330,7 +330,7 @@ export default function SpeakerCards() {
           <Image className="w-3/4 rounded-full mx-auto mt-4" src={Satyarth} alt="Anmol " />
           <div className="px-6 py-4 text-center">
             <h2 className="font-bold text-xl mb-2 text-white">Kumar Satyarth</h2>
-            <p className="text-gray-400 text-base">DevRel</p>
+            <p className="text-gray-400 text-base">Smart Contract Developer @ Timeswap</p>
           </div>
 
           <div className="px-6 pb-5 flex flex-grow justify-around">
