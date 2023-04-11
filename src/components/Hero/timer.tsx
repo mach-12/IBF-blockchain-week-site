@@ -41,7 +41,9 @@ export default function Timer() {
   return (
     <div >
       {eventTime ? (
-        <h2 className='mt-5 flex-row text-center font-black text-gray-800 text-3xl'>
+        <h2 className='mt-5 flex-row text-center font-black text-gray-800 text-3xl text-transparent
+        bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500 ease-in hover:from-yellow-500 hover:to-pink-500
+        transition cursor-default '>
           The event has begun!
         </h2>
       ) : (
