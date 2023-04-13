@@ -21,13 +21,13 @@ export default function Footer()
 
         <div>
             <div className="grid grid-flow-col gap-10">
-                <p><span className="font-bold"><a href="https://www.linkedin.com/in/mann-acharya" target="_blank" className="fill-current hover:text-purple-400 cursor-pointer">Mann Acharya (POC)</a></span> <br></br>Tech Head IBF<br></br><span className="cursor-pointer" onClick={() => {navigator.clipboard.writeText("9558372850")}}>9558372850</span></p>
+                <p><span className="font-bold"><a href="https://www.linkedin.com/in/mann-acharya" target="_blank" className="fill-current hover:text-purple-400 cursor-pointer">Mann Acharya (POC)</a></span> <br></br>Tech Head IBF<br></br><span className="cursor-pointer" onClick={() => {navigator.clipboard.writeText("e21cseu0410@bennett.edu.in")}}>e21cseu0410@bennett.edu.in</span></p>
             </div>
         </div>
 
         <div>
             <div className="grid grid-flow-col gap-10">
-            <p><span className="font-bold"><a href="https://www.linkedin.com/in/jayvardhan10" target="_blank" className="fill-current hover:text-purple-400 cursor-pointer">Jay Vardhan Singh (POC)</a></span> <br></br>Chairperson IBF<br></br><span className="cursor-pointer" onClick={() => {navigator.clipboard.writeText("8077159037 ")}}>8077159037</span></p>
+            <p><span className="font-bold"><a href="https://www.linkedin.com/in/jayvardhan10" target="_blank" className="fill-current hover:text-purple-400 cursor-pointer">Jay Vardhan Singh (POC)</a></span> <br></br>Chairperson IBF<br></br><span className="cursor-pointer" onClick={() => {navigator.clipboard.writeText("E21CSEU0347@bennett.edu.in")}}>E21CSEU0347@bennett.edu.in</span></p>
 
             </div>
         </div>
