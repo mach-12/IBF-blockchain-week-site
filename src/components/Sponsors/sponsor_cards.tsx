@@ -15,7 +15,7 @@ export default function SponsorCards() {
             <div className="mt-5 mb-5 w-32 h-2 bg-gradient-to-r from-orange-400 to-orange-500 rounded-md"/>
 
 
-            <section className="md:grid grid-cols-3 ">
+            <section className="pt-1 md:grid grid-cols-3 ">
                 <a href="https://www.5ire.org/" target="_blank" rel="noopener noreferrer">
                     <Image
                     className="w-56 my-5 md:mx-auto transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 "
